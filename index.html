@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/logos/logo.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=DM+Sans:wght@500;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <title>Iglesia Internacional Huerto del Espíritu Santo</title>
+</head>
+
+<body>
+
+    <!-- El header broo 🤙🏽 -->
+    <header id="#home">
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1><span>I</span>HES</h1>
+            </div>
+            <div class="nav-links">
+                <div class="nav-link"><a href="#home">INICIO</a></div>
+                <div class="nav-link"><a href="#about">NOSOTROS</a></div>
+                <div class="nav-link"><a href="#services">SERVICIOS</a></div>
+                <div class="nav-link"><a href="#activities">ACTIVIDADES</a></div>
+                <div class="nav-link"><a href="./game.html">JUEGOS</a></div>
+                <div class="nav-link"><a href="#contact">CONTACTOS</a></div>
+            </div>
+            <div class="nav-search">
+                <input type="search" placeholder="Buscar...">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+            <div class="theme">
+                <button><i class="fa fa-moon" id="theme" value="ligth" onclick="changeTheme()"></i></button>
+            </div>
+            <!-- Broo, lo responsivo 🤙🏽 -->
+            <div class="nav-responsive">
+                <div class="menu" id="menu">
+                    <button onclick="showMenu(menu)" value="show"><i class="fa fa-bars"></i></button>
+                </div>
+                <div class="resnav-content" id="rvc">
+                    <div class="resnav-search">
+                        <input type="search" placeholder="Buscar...">
+                        <button><i class="fa fa-search"></i></button>
+                    </div>
+                    <div class="resnav-theme">
+                        <button><i class="fa fa-moon" id="theme" value="ligth"></i></button>
+                    </div>
+                    <div class="resnav-links">
+                        <div class="resnav-link"><a href="#home">INICIO</a></div>
+                        <div class="resnav-link"><a href="#about">NOSOTROS</a></div>
+                        <div class="resnav-link"><a href="#services">SERVICIOS</a></div>
+                        <div class="resnav-link"><a href="#activities">ACTIVIDADES</a></div>
+                        <div class="resnav-link"><a href="./game.html">JUEGOS</a></div>
+                        <div class="resnav-link"><a href="#contact">CONTACTO</a></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- El Hero broo 🤙🏽 -->
+    <div class="hero">
+        <div class="h-content">
+            <div class="hero-img">
+                <img src="./assets/img/hero/hero.png" alt="presentation">
+            </div>
+            <div class="hero-text">
+                <h1>Lorem, ipsum dolor.</h1>
+                <h2>Lorem ipsum dolor sit amet.</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente doloremque quidem mollitia iure eligendi ipsam molestiae officia recusandae hic. Animi!</p>
+            </div>
+            <div class="hero-button">
+                <a href="#services">BAJAR</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- About broo 🤙🏽 -->
+    <section>
+        <div class="about" id="about">
+            <h1>NOSOtROS</h1>
+            <h2>Lorem, ipsum dolor.</h2>
+            <div class="presentation">
+                <img src="./assets/img/about/about.jpg" alt="presentation">
+            </div>
+            <div class="container">
+                <div class="timeline">
+                    <ul>
+                        <li>
+                            <div class="timeline-content">
+                                <img src="./assets/img/about/information.png" alt="About">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <h1>NOSOTROS</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <img src="./assets/img/about/vision.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <h1>VISIÓN</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <img src="./assets/img/about/mision.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <h1>MISIÓN</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <img src="./assets/img/about/values.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-content">
+                                <h1>VALORES</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services broo 🤙🏽 -->
+    <section>
+        <div class="services" id="services">
+            <h1>SERVICES</h1>
+            <h2>Lorem, ipsum dolor.</h2>
+            <div class="scards">
+                <div class="scard">
+                    <h3>SERVICE TITÑE</h3>
+                    <img src="./assets/img/services/cadena.png" alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, velit! </p>
+                </div>
+                <div class="scard">
+                    <h3>SERVICE TITÑE</h3>
+                    <img src="./assets/img/services/cadena.png" alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, velit! </p>
+                </div>
+                <div class="scard">
+                    <h3>SERVICE TITÑE</h3>
+                    <img src="./assets/img/services/cadena.png" alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, velit! </p>
+                </div>
+                <div class="scard">
+                    <h3>SERVICE TITÑE</h3>
+                    <img src="./assets/img/services/cadena.png" alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, velit! </p>
+                </div>
+                <div class="scard">
+                    <h3>SERVICE TITÑE</h3>
+                    <img src="./assets/img/services/cadena.png" alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, velit! </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities broo 🤙🏽 -->
+    <section>
+        <div class="activities" id="activities">
+            <h1>ACTIVIDADES</h1>
+            <h2>Lorem, ipsum dolor.</h2>
+            <div class="acards">
+                <div class="acard">
+                    <img src="./assets/img/services/coro.png" al t="">
+                </div>
+                <div class="acard">
+                    <img src="./assets/img/activities/activity-1.jpeg" alt="">
+                </div>
+                <div class="acard">
+                    <img src="./assets/img/services/cadena.png" alt="">
+                </div>
+                <div class="acard">
+                    <img src="./assets/img/services/cadena.png" alt="">
+                </div>
+                <div class="acard">
+                    <img src="./assets/img/services/cadena.png" alt="">
+                </div>
+                <div class="acard">
+                    <img src="./assets/img/services/cadena.png" alt="">
+                </div>
+                <div class="acard">
+                    <img src="./assets/img/services/cadena.png" alt="">
+                </div>
+                <div class="acard">
+                    <img src="./assets/img/services/cadena.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bro, contact 🤙🏽 -->
+    <section>
+        <div class="contact" id="contact">
+            <h1>CONTACTO</h1>
+            <h2>Lorem, ipsum dolor.</h2>
+            <div class="contact-content">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1299.2848636497754!2d-70.50642501331203!3d18.546235013429104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eb000bf11d21c9d%3A0x27db3eb7edff2bf!2sParque%20Libertad!5e0!3m2!1ses!2sdo!4v1658687896492!5m2!1ses!2sdo"
+                        width="100%" height="685px" style="border:0; border-radius: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="form">
+                    <form>
+                        <h1 class="titulo"> Formuario de Contacto </h1>
+                        <div class="texto"> <label for="name">Nombre</label>
+                            <input type="text" placeholder="Nombre" required name="name">
+                        </div>
+
+                        <div class="texto">
+                            <label for="lastname">Apellido</label>
+                            <input type="text" placeholder="Apellido" id="lastname" required name="lastname">
+                        </div>
+                        <div class="texto">
+                            <label for="email">Correo</label>
+                            <input type="email" placeholder="Correo Electronico" id="email" required name="email">
+                        </div>
+                        <textarea name="message" id="textarea" cols="30" rows="10" requiredn placeholder="Ingresa tu mensaje aquí"></textarea>
+                        <button type="submit">Enviar</button>
+                        <a href="mailto:darminreyes84@gmail.com" id="mail"></a>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Broo el footer 🤙🏽 -->
+    <section>
+        <div class="footer" id="footer">
+            <footer>
+                <div class="elementos__superiores">
+                    <div class="logo">
+                        <img src="assets/img/logos/logo.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Info</h3>
+                        <hr />
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sunt, numquam consequatur modi autem sed enim omnis animi commodi accusantium.</p>
+                    </div>
+                    <div class="copyright">
+                        <h3>Copirigth</h3>
+                        <hr />
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sunt, numquam consequatur modi autem sed enim omnis animi commodi accusantium.</p>
+                    </div>
+
+
+                </div>
+                <div class="elementos__inferiores">
+
+                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
+
+
+                    <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i> Whatsapp</a>
+
+
+                    <a href="#"> <i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a>
+
+
+
+                    <a href="#"> <i class="fa fa-youtube-play" aria-hidden="true"></i> YouTube</a>
+
+                </div>
+            </footer>
+        </div>
+    </section>
+
+
+
+    <!-- Broo, los ssscrippptsss 🤙🏽 -->
+    <script src="./assets/js/responsive.js"></script>
+    <script src="./assets/js/game.js"></script>
+    <script src="./assets/js/contact.js"></script>
+</body>
+
+</html>
